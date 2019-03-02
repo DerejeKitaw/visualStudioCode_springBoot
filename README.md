@@ -7,10 +7,13 @@
 > 02_Type `>spring` 
 * 01_Select Spring Initializer: Generate a Maven Project
 * 02_Select Java
-* 03_add your input Group Id for your project Eg. `come.dkitaw`
+* 03_add your input Group Id for your project Eg. `com.dkitaw`
 * 04_add Input Artifact Id for your project
 * 05_Select Spring Boot version -> I will select 2.0.5 default one
 * 06_add dependencies you need -> I will select DevTool and Web
+
+* 06_1_We can add dependencies any time by right click on pom.xml file.
+
 * 07_[add actuator ops](https://spring.io/guides/gs/actuator-service/)
 ### 04_add server port ->I will use server.port=9898
 ### 05_Run application -> Should see error on the http://127.0.0.1:9898
